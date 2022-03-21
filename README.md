@@ -39,15 +39,35 @@ This was performed using the [p5.js](https://p5js.org/) library as it makes visu
 
 The Game of Life is a 2-dimensional cellular automaton which means that any single generation occupies two dimensions on screen, so the updating is made across time and the visualisatoin "comes to life" by successively flashing the generations across the screen in order.
 
-The Game of Life Visualtion is HERE
+The Game of Life Visualtion is [HERE](GameOfLife/index.html)
 
-The elementary cellular automata are 1-dimensional. This means that to visualize them, we start with the first generation(or initial state) as a single row, which successive generations . This results in a static 2-dimensional image which represents the history of all the various generations. 
+The elementary cellular automata are 1-dimensional. This means that to visualize them, we start with the first generation(or initial state) as a single row, and successive generations are appended as rows beneath the first generation/row. This results in a static 2-dimensional image which represents the history of all the various generations. 
 
-As mentioned the results can be quite visually suprising for what sounds to quite drab 
+As mentioned the results can be quite visually suprising for what sounds to quite drab mathematical talk underlying the structure.
+
+As mentioned above, there are $256$ possible rules and hence $256$ *elementary cellular automata* (although some exhibit the same high level behaviour). Instead of having $256$ distinct files - I opted to __create a template__ such that a single file could be used to generate all $256$ elementary cellular automata. Indeed, the template currently draws rule $90$ but 
+could easily be altered to draw any rule by altering the __RULE_NUM__ variable to the desired rule/cellular automaton number.
+
+Some of the various Rules are shown below using screenshots of the results(the number of the result can be seen by hovering over the image):
+
+![Rule 30](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule30.png "Rule 30")
+
+![Rule 45](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule45.png "Rule 45")
+
+![Rule 90](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule90.png "Rule 90")
+
+![Rule 94](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule94.png "Rule 94")
+
+![Rule 99](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule99.png "Rule 99")
+
+![Rule 118](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule118.png "Rule 118")
+
+![Rule 150](ElementaryCellularAutomataTemplate/PicturesVariousRules/Rule150.png "Rule 150")
 
 
 
-The specifics of the code can be found in the sketch.js file of each respective directory where comments help explain the coding logic.
+
+The specifics of the implementation can be found in the sketch.js file of each respective directory where comments help explain the coding logic.
 
 Another way to visualise and see them is to
 
