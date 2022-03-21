@@ -75,8 +75,9 @@ Another way to visualise and see them is to visit [this collection of sketches o
 
 #### Potential Updates/Improvements
 
--Finer ability to control FPS on game of Life or generation updates per second
--A way to fix the size and scale of the elementary cellular automaton so as to get the correct visualizations
--An interface so that users can plug-in the desired Rule number and not have to manually insert it 
++ Finer ability to control FPS on game of Life or generation updates per second
++ A way to fix the size and scale of the elementary cellular automaton so as to get the correct visualizations
++An interface so that users can plug-in the desired Rule number and not have to manually insert it 
 in the _ElementaryCellularAutomataTemplate/sketch.js_ file.
--Potentially a better way to deal with edges on GameOfLife since its current behaviour activity seems to bias the edges.
++ Potentially a better way to deal with edges on GameOfLife since its current behaviour activity seems to bias the edges.
++ Animate line by line the ECA so one can make the pattern emergin more exciting rather than having boring static images to look at.
