@@ -1,3 +1,6 @@
+//Please read README.md for background. It is key to understand the following.
+
+
 //Following outlines the logic/thinking behind the code.
 
 //The game of life is a cellular automata that can be thought of as 2 dimensional which updates
@@ -10,7 +13,7 @@
 // representing live and dead cells.
 // 2. A rendering function in which:
 //       a. The underlying 2d array is drawn on a canvas using the relevant p5 methods.
-//       b. The next generation or "update" is calculated and then replaces the main array
+//       b. The next generation or "update" is calculated and then replaces the main (2d) array
 
 //NOTE: the setup() function in p5.js is called at soon as the program is run, and the draw() function is run in a continuous
 // loop, hence the need to put the update function in the draw() function.
